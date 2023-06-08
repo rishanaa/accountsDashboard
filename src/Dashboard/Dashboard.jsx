@@ -62,6 +62,62 @@ function Dashboard() {
       </SeriesCollectionDirective>
     </ChartComponent>
       </div>
+      
+      </div>
+      <div className='dashboard-banner'>
+        <div className='banner-cont banner1'>
+          <h2>August</h2>
+          <div className='month'>
+          <div>
+          <h5>Credit</h5>
+          <p>77,000</p>
+          </div>
+          <div>
+          <h5>Debit</h5>
+          <p>25,000</p>
+          </div>
+          </div>
+        </div>
+        <div className='banner-cont banner2'>
+          <h2>September</h2>
+          <div className='month'>
+          <div>
+          <h5>Credit</h5>
+          <p>65,000</p>
+          </div>
+          <div>
+          <h5>Debit</h5>
+          <p>6,500</p>
+          </div>
+          </div>
+        </div>
+        <div className='banner-cont banner3'>
+          <h2>November</h2>
+          <div className='month'>
+          <div>
+          <h5>Credit</h5>
+          <p>0</p>
+          </div>
+          <div>
+          <h5>Debit</h5>
+          <p>1,200</p>
+          </div>
+          </div>
+          
+        </div>
+        <div className='banner-cont banner4'>
+          <h2>December</h2>
+          <div className='month'>
+          <div>
+          <h5>Credit</h5>
+          <p>6,000</p>
+          </div>
+          <div>
+          <h5>Debit</h5>
+          <p>25,000</p>
+          </div>
+          </div>
+        </div>
       </div>
     </div>
   )
